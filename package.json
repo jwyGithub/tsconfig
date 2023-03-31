@@ -1,0 +1,36 @@
+{
+    "name": "@jiangweiye/tsconfig",
+    "version": "0.0.1",
+    "description": "jiangweiye development environment tsconfig configuration",
+    "main": "index.js",
+    "scripts": {
+        "release": "pnpm -r publish --access public"
+    },
+    "keywords": [
+        "tsconfig",
+        "tsconfig.web.json",
+        "tsconfig.node.json"
+    ],
+    "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jwyGithub/tsconfig.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jwyGithub/tsconfig/issues"
+    },
+    "homepage": "https://github.com/jwyGithub/tsconfig#readme",
+    "peerDependencies": {
+        "@types/node": "*"
+    },
+    "peerDependenciesMeta": {
+        "@types/node": {
+            "optional": true
+        }
+    },
+    "publishConfig": {
+        "access": "public"
+    }
+}
+
