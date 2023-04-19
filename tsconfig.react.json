@@ -1,8 +1,13 @@
 {
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
-        "lib": ["ES2016", "DOM", "DOM.Iterable"],
-        "types": []
+        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "allowJs": false,
+        "skipLibCheck": true,
+        "esModuleInterop": false,
+        "forceConsistentCasingInFileNames": true,
+        "noEmit": true,
+        "jsx": "react-jsx"
     }
 }
 

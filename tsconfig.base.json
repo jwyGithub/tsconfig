@@ -1,23 +1,60 @@
 {
     "compilerOptions": {
-        "allowJs": false,
+        // 允许编译JS
+        "allowJs": true,
+        // 用来指定允许从没有默认导出的模块中默认导入
         "allowSyntheticDefaultImports": true,
-        "alwaysStrict": false,
-        "checkJs": false,
+        // 是否检测JS的语法,例如下面的语法编辑器会报错
+        "checkJs": true,
+        // 通过为导入内容创建命名空间，实现CommonJS和ES模块之间的互操作性
         "esModuleInterop": true,
+        // 指定 ECMAScript 目标版本: 'ES3' (default), 'ES5', 'ES2015', 'ES2016', 'ES2017', or 'ESNEXT'
         "target": "ESNext",
+        // 指定使用模块: 'commonjs', 'amd', 'system', 'umd' or 'es2015'
         "module": "ESNext",
+        // 模块解析策略
         "moduleResolution": "Node",
         "resolveJsonModule": true,
         "useDefineForClassFields": true,
+        // 指定 jsx 代码的生成: 'preserve', 'react-native', or 'react'
         "jsx": "preserve",
-        "noImplicitThis": true,
+        // 严格模式
         "strict": true,
+        // 将每一个文件作为单独模块
         "isolatedModules": true,
         "preserveValueImports": true,
         "importsNotUsedAsValues": "error",
         "forceConsistentCasingInFileNames": true,
-        "skipLibCheck": true
+        "skipLibCheck": true,
+        // 编译的时候删除注释
+        "removeComments": false,
+        // 是否引入npm包tslib中的辅助函数,__extends等
+        "importHelpers": false,
+        // 不允许变量或函数参数具有隐式any类型
+        "noImplicitAny": false,
+        // null类型检测,const teacher: string = null;会报错
+        "strictNullChecks": true,
+        // 对函数参数进行严格逆变比较
+        "strictFunctionTypes": true,
+        // 严格检查bind call apply
+        "strictBindCallApply": true,
+        // 此规则将验证构造函数内部初始化前后已定义的属性。
+        "strictPropertyInitialization": true,
+        // 检测this是否隐式指定
+        "noImplicitThis": true,
+        // 使用js的严格模式,在每一个文件上部声明 use strict
+        "alwaysStrict": false,
+        // 默认false,是否检测定义了但是没使用的变量
+        "noUnusedLocals": true,
+        // 用于检查是否有在函数体中没有使用的参数
+        "noUnusedParameters": true,
+        // 用于检查函数是否有返回值，设为true后，如果函数没有返回值则会提示
+        "noImplicitReturns": true,
+        // 用于检查switch中是否有case没有使用break跳出switch
+        "noFallthroughCasesInSwitch": true,
+        // experimentalDecorators用于指定是否启用实验性的装饰器特性
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true
     }
 }
 
