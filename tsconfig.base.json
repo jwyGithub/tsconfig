@@ -1,4 +1,5 @@
 {
+    "extends": "./tsconfig.alias.json",
     "compilerOptions": {
         // 允许编译JS
         "allowJs": true,
