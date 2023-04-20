@@ -1,5 +1,4 @@
 {
-    "extends": "./tsconfig.alias.json",
     "compilerOptions": {
         // 允许编译JS
         "allowJs": true,
@@ -55,7 +54,8 @@
         "noFallthroughCasesInSwitch": true,
         // experimentalDecorators用于指定是否启用实验性的装饰器特性
         "experimentalDecorators": true,
-        "emitDecoratorMetadata": true
+        "emitDecoratorMetadata": true,
+        "ignoreDeprecations": "5.0"
     }
 }
 
