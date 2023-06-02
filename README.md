@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/npm/v/@jiangweiye/tsconfig" alt='version'>
-  <img src="https://img.shields.io/npm/dy/@jiangweiye/tsconfig" alt='download'>
+  <img src="https://img.shields.io/npm/dw/@jiangweiye/tsconfig" alt='download'>
   <img src="https://img.shields.io/github/issues/jwyGithub/tsconfig" alt='issues'>
   <img src="https://img.shields.io/github/license/jwyGithub/tsconfig" alt='license'>
 </p>

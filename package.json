@@ -1,6 +1,6 @@
 {
     "name": "@jiangweiye/tsconfig",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "description": "jiangweiye development environment tsconfig configuration",
     "main": "index.js",
     "scripts": {
@@ -9,10 +9,12 @@
     "keywords": [
         "tsconfig",
         "tsconfig.web.json",
-        "tsconfig.node.json"
+        "tsconfig.node.json",
+        "tsconfig.vue.json",
+        "tsconfig.react.json"
     ],
     "author": "jiangweiye <jiangweiye@outlook.com> (https://github.com/jwyGithub)",
-    "license": "MIT",
+    "license": "SEE LICENSE IN LICENSE",
     "repository": {
         "type": "git",
         "url": "git+https://github.com/jwyGithub/tsconfig.git"
