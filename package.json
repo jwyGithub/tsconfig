@@ -1,6 +1,6 @@
 {
     "name": "@jiangweiye/tsconfig",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "description": "jiangweiye development environment tsconfig configuration",
     "main": "index.js",
     "scripts": {

@@ -1,13 +1,21 @@
 {
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
-        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+        "lib": ["DOM", "DOM.Iterable", "ESNext", "ES2020"],
         "allowJs": false,
         "skipLibCheck": true,
         "esModuleInterop": false,
         "forceConsistentCasingInFileNames": true,
         "noEmit": true,
-        "jsx": "react-jsx"
+        "jsx": "react-jsx",
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        "strict": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noFallthroughCasesInSwitch": true
     }
 }
 
