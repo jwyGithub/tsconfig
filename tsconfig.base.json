@@ -23,7 +23,7 @@
         // 将每一个文件作为单独模块
         "isolatedModules": true,
         "preserveValueImports": true,
-        "importsNotUsedAsValues": "error",
+        "verbatimModuleSyntax": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
         // 编译的时候删除注释
