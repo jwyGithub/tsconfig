@@ -22,7 +22,6 @@
         "strict": true,
         // 将每一个文件作为单独模块
         "isolatedModules": true,
-        "preserveValueImports": true,
         "verbatimModuleSyntax": true,
         "forceConsistentCasingInFileNames": true,
         "skipLibCheck": true,
