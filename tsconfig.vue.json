@@ -1,9 +1,19 @@
 {
     "extends": "./tsconfig.base.json",
     "compilerOptions": {
-        "lib": ["ESNext", "DOM"],
+        "lib": ["ES2020", "DOM", "DOM.Iterable"],
         "noEmit": true,
-        "jsx": "preserve"
+        "jsx": "preserve",
+        "jsxImportSource": "vue",
+        "moduleResolution": "Bundler",
+        "module": "ESNext",
+        "noImplicitThis": true,
+        "strict": true,
+        "verbatimModuleSyntax": true,
+        "useDefineForClassFields": true,
+        "esModuleInterop": true,
+        "forceConsistentCasingInFileNames": true,
+        "skipLibCheck": true
     }
 }
 
