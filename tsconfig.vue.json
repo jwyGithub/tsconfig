@@ -4,7 +4,6 @@
         "lib": ["ES2020", "DOM", "DOM.Iterable"],
         "noEmit": true,
         "jsx": "preserve",
-        "jsxImportSource": "vue",
         "moduleResolution": "Bundler",
         "module": "ESNext",
         "noImplicitThis": true,
